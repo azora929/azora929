@@ -64,7 +64,7 @@
     <td width="50%" valign="top">
       <h3 align="center">EvoSpeak / Yespeak</h3>
       <div align="center">
-        <img src="./photos/yespeak.jpeg" alt="EvoSpeak preview" width="100%" />
+        <img src="./photos/yespeak.png" alt="EvoSpeak preview" width="100%" />
         <br/><br/>
         <img src="./photos/yespeak_icon.png" alt="EvoSpeak icon" width="170" />
       </div>
@@ -84,7 +84,7 @@
     <td width="50%" valign="top">
       <h3 align="center">ИИ Препод</h3>
       <div align="center">
-        <img src="./photos/iiprepod.jpeg" alt="ИИ Препод preview" width="100%" />
+        <img src="./photos/iiprepod.png" alt="ИИ Препод preview" width="100%" />
         <br/><br/>
         <img src="./photos/iiprepod_icon.png" alt="ИИ Препод icon" width="170" />
       </div>
@@ -170,15 +170,6 @@
 - люблю, когда продукт не просто работает, а ведёт себя предсказуемо
 - ценю аккуратность, читаемость и адекватные инженерные решения
 - ориентируюсь на реальную пользу для пользователя, а не на “демо ради демо”
-
----
-
-## GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=azora929&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=azora929&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
 
 ---
 
