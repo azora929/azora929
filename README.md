@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:1f6feb,65:58a6ff,100:7c3aed&height=220&section=header&text=Alexander%20Dremin&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Middle%20Python%20Fullstack%20Developer%20(backend-first)&descAlignY=58&descSize=18" />
 
 <p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=1000&lines=Создаю+production-ready+AI+продукты;FastAPI+%E2%80%A2+React+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis;Realtime+%E2%80%A2+Telegram+боты+%E2%80%A2+Платежи+%E2%80%A2+PDF;От+идеи+и+архитектуры+до+продакшена" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=24&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=1000&lines=Создаю+production-ready+AI+продукты;FastAPI+%E2%80%A2+Django+%E2%80%A2+React+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis;Realtime+%E2%80%A2+Telegram+боты+%E2%80%A2+Платежи+%E2%80%A2+Очереди;От+идеи+и+архитектуры+до+продакшена" alt="Typing SVG" />
 </p>
 
 <p>
@@ -24,15 +24,17 @@
 
 ## Обо мне
 
-Я — **Middle Python Fullstack Developer (backend-first)** с **3+ годами коммерческого опыта**.
+Я — **Middle Python Fullstack Developer (backend-first)** с сильным уклоном в **backend, AI-интеграции, realtime-сценарии и production-ready архитектуру**.
 
-Занимаюсь разработкой **AI-powered продуктов**, где важны не только фичи, но и то, как система ведёт себя в продакшене: стабильность, предсказуемость, обработка краевых сценариев, интеграции, скорость разработки и удобство для пользователя.
+Занимаюсь разработкой сервисов, где важно не только быстро сделать фичу, но и довести её до рабочего состояния:  
+от проектирования API и бизнес-логики до интеграций, обработки edge cases, фоновых задач, платежей, realtime и поддержки в продакшене.
 
 Обычно веду задачи **от идеи до продакшена**:
 - проектирую архитектуру и API
-- продумываю валидацию и edge cases
-- подключаю AI, realtime, Telegram, платежные системы
-- довожу фичу до рабочего production-состояния и поддерживаю дальше
+- продумываю валидацию и пользовательские сценарии
+- подключаю AI, Telegram, платежи, очереди, realtime
+- оптимизирую производительность и стабильность
+- довожу решение до production-ready состояния
 
 ---
 
@@ -48,10 +50,11 @@
 
 | Направление | Технологии |
 |---|---|
-| **Backend** | Python, FastAPI, Django/DRF, REST API, gRPC, WebSocket, SSE, asyncio |
-| **AI / LLM** | OpenAI Assistants API, Realtime API, tool calling, streaming, Whisper, TTS, LangChain |
-| **Frontend** | React 18, TypeScript, Vite, SASS, MobX, Recharts, Three.js |
-| **Data / Infra** | PostgreSQL, Redis, SQLAlchemy, asyncpg, Docker, Kubernetes, Nginx, CI/CD |
+| **Backend** | Python, FastAPI, Django, Django REST Framework, REST API, gRPC, WebSocket, asyncio |
+| **AI / LLM** | OpenAI API, Assistants API, Realtime API, Responses API, tool calling, streaming, Whisper, TTS, LangGraph |
+| **Frontend** | React 18, TypeScript, Vite, SCSS, MobX, Recharts, Three.js |
+| **Databases / Queues** | PostgreSQL, Redis, MongoDB, SQLAlchemy, asyncpg, Celery |
+| **Infra** | Docker, Kubernetes, Nginx, Linux, SSL/TLS, CI/CD |
 
 </div>
 
@@ -70,9 +73,9 @@
       </div>
       <br/>
       <p>
-        <b>Платформа изучения английского с AI-тьютором</b>, где обучение строится не как набор упражнений, а как живая адаптивная система под конкретного пользователя.
+        <b>AI-платформа для изучения английского</b> с чат-уроками, тестами, экзаменами, голосовыми сценариями и монетизацией.
       </p>
-      <p><b>Что внутри:</b></p>
+      <p><b>Что реализовано:</b></p>
       <ul>
         <li>чат с AI-преподавателем</li>
         <li>уроки, тесты и экзамены</li>
@@ -80,6 +83,7 @@
         <li>Realtime API и живое взаимодействие</li>
         <li>монетизация через YooKassa</li>
       </ul>
+      <p><b>Сильный инженерный кейс:</b> двухпоточный AI-flow для уроков, который сократил ожидание генерации заданий с 1–2 минут до нескольких секунд.</p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">ИИ Препод</h3>
@@ -90,15 +94,15 @@
       </div>
       <br/>
       <p>
-        <b>EdTech-платформа для школьников</b> с AI-тьютором, сессиями обучения, подготовкой к экзаменам и Telegram-интеграцией.
+        <b>EdTech-платформа для школьников</b> с AI-тьютором, сессионной логикой, экзаменационной подготовкой и Telegram-интеграцией.
       </p>
-      <p><b>Что внутри:</b></p>
+      <p><b>Что реализовано:</b></p>
       <ul>
         <li>AI-репетитор и учебные сценарии</li>
         <li>чат и сессионная логика</li>
         <li>SMS-авторизация</li>
         <li>токен-биллинг</li>
-        <li>нагрузка до ~1000 пользователей одновременно</li>
+        <li>нагрузка до ~1000 пользователей</li>
       </ul>
     </td>
   </tr>
@@ -115,7 +119,7 @@
       </div>
       <br/>
       <p>
-        <b>Telegram-бот с AI-механиками</b> для астрологических разборов, прогнозов и персонализированного контента.
+        <b>Telegram AI-сервис</b> с подпиской, голосовыми сценариями, персонализированным контентом и PDF-отчетами.
       </p>
       <p><b>Что реализовано:</b></p>
       <ul>
@@ -126,6 +130,31 @@
         <li>автоматическая выдача персонального контента</li>
       </ul>
     </td>
+    <td width="50%" valign="top">
+      <h3 align="center">DJSet Analytic</h3>
+      <div align="center">
+        <img src="./photos/dj_analytic.png" alt="DJSet Analytic preview" width="100%" />
+      </div>
+      <br/>
+      <p>
+        <b>Fullstack-сервис для автоматического анализа DJ-сетов и миксов</b> с фоновой обработкой длинных аудиофайлов и AI-постобработкой результатов.
+      </p>
+      <p><b>Что реализовано:</b></p>
+      <ul>
+        <li>загрузка длинных аудиофайлов и история задач</li>
+        <li>очереди и воркеры на Celery + Redis</li>
+        <li>WebSocket-статусы выполнения в реальном времени</li>
+        <li>AI-очистка и нормализация треклиста</li>
+        <li>экспорт результата в DOCX</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+<table>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">Chester Feya CRM + НБКИ</h3>
       <br/>
@@ -141,6 +170,21 @@
         <li>аналитика и автоматизация внутренних процессов</li>
       </ul>
     </td>
+    <td width="50%" valign="top">
+      <h3 align="center">Мой сайт-резюме</h3>
+      <br/>
+      <p>
+        <b>Личный fullstack-проект</b> с AI-чатом, PDF-резюме и микросервисным взаимодействием между сайтом и Telegram-ботом.
+      </p>
+      <p><b>Что реализовано:</b></p>
+      <ul>
+        <li>FastAPI backend + React frontend</li>
+        <li>AI-чат с WebSocket streaming</li>
+        <li>генерация PDF-резюме</li>
+        <li>gRPC-связка сайта и Telegram-бота</li>
+        <li>Kubernetes, Nginx, SSL/TLS</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -154,10 +198,11 @@
 |---|---|
 | **Backend-архитектура** | проектирую API и сервисы, которые нормально ведут себя в продакшене |
 | **AI-интеграции** | встраиваю LLM, streaming, tool calling, voice и assistants в реальные продуктовые сценарии |
-| **Realtime-системы** | WebSocket, SSE, event-driven взаимодействие |
-| **Telegram-экосистема** | боты, сценарии, уведомления, пользовательские потоки |
-| **Платежи и монетизация** | YooKassa, Telegram Payments, токен-биллинг |
-| **Автоматизация** | PDF, планировщики, фоновые процессы, сервисная логика |
+| **Realtime-системы** | WebSocket, event-driven взаимодействие, live-статусы |
+| **Telegram-экосистема** | боты, уведомления, сценарии, пользовательские потоки |
+| **Платежи и монетизация** | YooKassa, Telegram Payments, подписки, биллинг |
+| **Очереди и пайплайны** | Celery, Redis, фоновые воркеры, batch-processing |
+| **Автоматизация** | PDF, планировщики, отчёты, сервисная логика |
 
 </div>
 
